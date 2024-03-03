@@ -4,5 +4,8 @@ package org.example.dataentity.usermanagement;
  * @version $1
  * @title Data Oriented Programming By Yenothan Sharvit
  */
-public record UserManagementData() {
+public record UserManagementData(
+        java.util.List<LibrarianData> librarians,
+        java.util.List<MemberData> members
+) {
 }

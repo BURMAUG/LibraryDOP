@@ -1,8 +1,8 @@
-package org.example.codemodule;
+package org.example.codemodule.library;
 
 import org.example.codemodule.catalog.Catalog;
 import org.example.codemodule.usermanagement.UserManagement;
-import org.example.dataentity.LibraryData;
+import org.example.dataentity.library.LibraryData;
 
 public class Library {
     public static void searchBook(LibraryData libraryData){}
@@ -13,7 +13,7 @@ public class Library {
     public static boolean isMember(LibraryData libraryData){
         return false;
     }
-    public static Catalog getBookLendings(LibraryData libraryData, String userId, String memberId){
+    public static Catalog getBookLendings(LibraryData libraryData, String userId, String memberId) {
         if (UserManagement.isLibrarian(libraryData.userManagementData(), userId)) {
             return Catalog.getBookLendings(libraryData.catalogData(), memberId);
         }

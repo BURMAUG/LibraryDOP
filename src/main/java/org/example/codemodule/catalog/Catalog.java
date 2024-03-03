@@ -1,6 +1,5 @@
 package org.example.codemodule.catalog;
 
-import org.example.codemodule.usermanagement.UserManagement;
 import org.example.dataentity.catalog.CatalogData;
 import org.example.dataentity.usermanagement.UserManagementData;
 

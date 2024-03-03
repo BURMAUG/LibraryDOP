@@ -11,5 +11,9 @@ Meaning, there should be no inheritance hierarchy between Code Modules and no da
 in code modules either.
 * 
 ## Chapter 3
-
+Data should be manipulated using generic data structures like maps, sets, lists etc.\
 ## Chapter 4
+
+# Principles Of Data Oriented Programming
+* Seperate code from data.
+* Represent data entities with generic data structures. (Maps, Sets etc)
