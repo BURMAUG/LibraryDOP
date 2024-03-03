@@ -9,5 +9,7 @@ import org.example.dataentity.usermanagement.UserManagementData;
  * @title Data Oriented Programming By Yehonathan Sharvit
  */
 
-public record LibraryData(CatalogData catalogData, UserManagementData userManagementData) {
+public record LibraryData(
+        CatalogData catalogData,
+        UserManagementData userManagementData) {
 }

@@ -9,7 +9,6 @@ A system should be separated into two distinct parts Code Modules and Data entit
 * Code Modules should be stateless and the relations between Code Modules should be of Usage alone.
 Meaning, there should be no inheritance hierarchy between Code Modules and no data encapsulation 
 in code modules either.
-* 
 ## Chapter 3
 Data should be manipulated using generic data structures like maps, sets, lists etc.\
 ## Chapter 4
